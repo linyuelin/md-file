@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B513C7D72B46BFBC000ADAD5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513C7D62B46BFBC000ADAD5 /* Food.swift */; };
 		B5628EC42B46BCD300C67720 /* FoodPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5628EC32B46BCD300C67720 /* FoodPickerApp.swift */; };
 		B5628EC62B46BCD300C67720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5628EC52B46BCD300C67720 /* ContentView.swift */; };
 		B5628EC82B46BCD500C67720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5628EC72B46BCD500C67720 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B513C7D62B46BFBC000ADAD5 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		B5628EC02B46BCD300C67720 /* FoodPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5628EC32B46BCD300C67720 /* FoodPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPickerApp.swift; sourceTree = "<group>"; };
 		B5628EC52B46BCD300C67720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		B5628EC22B46BCD300C67720 /* FoodPicker */ = {
 			isa = PBXGroup;
 			children = (
+				B513C7D62B46BFBC000ADAD5 /* Food.swift */,
 				B5628EC32B46BCD300C67720 /* FoodPickerApp.swift */,
 				B5628EC52B46BCD300C67720 /* ContentView.swift */,
 				B5628EC72B46BCD500C67720 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5628EC62B46BCD300C67720 /* ContentView.swift in Sources */,
+				B513C7D72B46BFBC000ADAD5 /* Food.swift in Sources */,
 				B5628EC42B46BCD300C67720 /* FoodPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
