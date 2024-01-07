@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B513C7D72B46BFBC000ADAD5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513C7D62B46BFBC000ADAD5 /* Food.swift */; };
+		B54094332B495D3600025030 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54094322B495D3600025030 /* Extensions.swift */; };
+		B54094352B4A480A00025030 /* SuffixWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54094342B4A480A00025030 /* SuffixWrapper.swift */; };
 		B5628EC42B46BCD300C67720 /* FoodPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5628EC32B46BCD300C67720 /* FoodPickerApp.swift */; };
 		B5628EC62B46BCD300C67720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5628EC52B46BCD300C67720 /* ContentView.swift */; };
 		B5628EC82B46BCD500C67720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5628EC72B46BCD500C67720 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		B513C7D62B46BFBC000ADAD5 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		B54094322B495D3600025030 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B54094342B4A480A00025030 /* SuffixWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixWrapper.swift; sourceTree = "<group>"; };
 		B5628EC02B46BCD300C67720 /* FoodPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5628EC32B46BCD300C67720 /* FoodPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPickerApp.swift; sourceTree = "<group>"; };
 		B5628EC52B46BCD300C67720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 				B5628EC52B46BCD300C67720 /* ContentView.swift */,
 				B5628EC72B46BCD500C67720 /* Assets.xcassets */,
 				B5628EC92B46BCD500C67720 /* Preview Content */,
+				B54094322B495D3600025030 /* Extensions.swift */,
+				B54094342B4A480A00025030 /* SuffixWrapper.swift */,
 			);
 			path = FoodPicker;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 				B5628EC62B46BCD300C67720 /* ContentView.swift in Sources */,
 				B513C7D72B46BFBC000ADAD5 /* Food.swift in Sources */,
 				B5628EC42B46BCD300C67720 /* FoodPickerApp.swift in Sources */,
+				B54094352B4A480A00025030 /* SuffixWrapper.swift in Sources */,
+				B54094332B495D3600025030 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

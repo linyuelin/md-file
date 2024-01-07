@@ -1,13 +1,15 @@
 
 
 
+
+
 struct Food: Equatable {
     var name: String
     var image: String
-    var calorie: Double
-    var carb: Double
-    var fat: Double
-    var protein: Double
+    @Suffix("")var calorie: Double = .zero
+    @Suffix("g") var carb: Double = .zero
+    @Suffix("g") var fat: Double = .zero
+    @Suffix("g") var protein: Double = .zero
     
     static let examples = [
         Food(name: "ハンバーガー", image: "🍔", calorie: 294, carb: 14, fat: 24, protein: 17),
